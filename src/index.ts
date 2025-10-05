@@ -5,7 +5,7 @@ export interface Env {
 const ONE_YEAR = 60 * 60 * 24 * 365;
 
 const STATIC_FILES = new Set([
-  "ws.js",
+  "sw.js",
   "manifest.webmanifest",
 
   "favicon.ico",
