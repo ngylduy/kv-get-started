@@ -1,15 +1,23 @@
 {
 	"$schema": "node_modules/wrangler/config-schema.json",
 	"name": "kv-get-started",
+	"main": "src/index.ts",
 	"compatibility_date": "2025-03-27",
 	"compatibility_flags": ["nodejs_compat"],
-	"upload_source_maps": true,
 	"minify": true,
 	"observability": {
 		"enabled": true
 	},
-	"assets": {
-		"directory": "bucket",
-		"html_handling": "drop-trailing-slash"
-	}
+	"routes": [
+		{
+			"pattern": "toishare.com/*",
+			"zone_name": "toishare.com"
+		}
+	],
+	"kv_namespaces": [
+		{
+			"binding": "USER_NOTIFICATION",
+			"id": "d9e47617a5a540cdb907014940e609e0"
+		}
+	]
 }
