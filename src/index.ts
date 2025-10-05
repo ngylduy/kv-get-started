@@ -8,6 +8,8 @@ const STATIC_FILES = new Set([
   "sw.js",
   "manifest.webmanifest",
 
+  "toishare-logo-square.svg",
+
   "favicon.ico",
   "favicon.svg",
   "favicon-16x16.png",

@@ -3,14 +3,13 @@
 	"name": "kv-get-started",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-03-27",
-	"compatibility_flags": ["nodejs_compat"],
 	"minify": true,
 	"observability": {
 		"enabled": true
 	},
 	"routes": [
 		{
-			"pattern": "toishare.com/*",
+			"pattern": "www.toishare.com/*",
 			"zone_name": "toishare.com"
 		}
 	],
