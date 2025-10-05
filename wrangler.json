@@ -1,0 +1,15 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "kv-get-started",
+	"compatibility_date": "2025-03-27",
+	"compatibility_flags": ["nodejs_compat"],
+	"upload_source_maps": true,
+	"minify": true,
+	"observability": {
+		"enabled": true
+	},
+	"assets": {
+		"directory": "bucket",
+		"html_handling": "drop-trailing-slash"
+	}
+}
